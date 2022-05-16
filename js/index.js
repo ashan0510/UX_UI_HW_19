@@ -13,3 +13,11 @@ $(".skillDesign").hover (function (){
 function(){
     $("#designText").css("display", "none");
 });
+
+$(".skillInteraction").hover (function (){
+    console.log("You hovered");
+    $("#interactionText").css("display", "block");
+},
+function(){
+    $("#interactionText").css("display", "none");
+});
