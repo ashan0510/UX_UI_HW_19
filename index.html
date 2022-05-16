@@ -3,6 +3,7 @@
     <head>
         <title>HanmadebyAshley</title>
         <link href="css/style.css" type="text/css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -11,7 +12,7 @@
             <ul>
                 <li>about</li>
                 <li>wip</li>
-                <li>portfolio</li>
+                <li><a href="portfolio.html">portfolio</a></li>
                 <li>contact</li>
             </ul>
         </header>
@@ -43,22 +44,29 @@
                 <h1>Skills</h1>
             </div>
             <div class="skillsGrid">
-                <div class="UserEmpathy">
-                    <h2>User Empathy</h2>
-                    <img src="images/empathy.jpg" width="300">
-                    <p>To truly understand the user’s perspective, I start the process by going through the website or mobile app as if I am the user that has never navigated the site before. I take notes of any obstacles the user might run into, any emotions that may occur, and the elements that make the journey easy. Then user tests are conducted, and I compare their notes to mine. any similarities become priority.</p>
+              
+                <div class="skillEmpathy">
+                    <div class="skillText" id="empathyText">
+                        <h2>User Empathy</h2>
+                        <p>To truly understand the user’s perspective, I start the process by going through the website or mobile app as if I am the user that has never navigated the site before. I take notes of any obstacles the user might run into, any emotions that may occur, and the elements that make the journey easy. Then user tests are conducted, and I compare their notes to mine. any similarities become priority.</p>    
+                    </div>
                 </div>
-                <div class="Design">
-                    <h2>Design</h2>
-                    <img src="images/design.jpg" width="300">
-                    <p>With my background from my Fine Art Studio Bachelor's Degree, I am well rounded in the elements that create an appealing visual design. With my design capabilities on paper and digitally, I am able to turn a concept into a vision.</p>
+
+                <div class="skillDesign">
+                    <div class="skillText" id="designText">
+                        <h2>Design</h2>
+                        <p>With my background from my Fine Art Studio Bachelor's Degree, I am well rounded in the elements that create an appealing visual design. With my design capabilities on paper and digitally, I am able to turn a concept into a vision.</p>    
+                    </div>
                 </div>
-                <div class="Interaction">
-                    <h2>Interaction</h2>
-                    <img src="images/communication.png" width="300">
-                    <p>Communication is a key factor whether you are working with team members or the client. It improves project time management and ensures that the product is made to satisfaction. It is also important to communicate with future potential users. It is good to understand the different types of future users that the product can serve. It’s ideal to gather the users background, their experience/knowledge in the field of the products purpose, and how they would navigate the platform.</p>
+
+                <div class="skillInteraction">
+                    <div class="skillText" id="interactionText">
+                        <h2>Interaction</h2>
+                        <p>Communication is a key factor whether you are working with team members or the client. It improves project time management and ensures that the product is made to satisfaction. It is also important to communicate with future potential users. It is good to understand the different types of future users that the product can serve. It’s ideal to gather the users background, their experience/knowledge in the field of the products purpose, and how they would navigate the platform.</p>    
+                    </div>
                 </div>
             </div>
+
             <div class="skillButton">
                 <button><img src="images/up arrow.png" width="50px" height="50px"></button>
             </div>
@@ -104,7 +112,9 @@
                 </div>
             </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 
-    <script src="js/index.js"></script>
+
 </html>

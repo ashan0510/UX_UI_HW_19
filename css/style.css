@@ -69,6 +69,7 @@ header li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    gap: 50px;
 }
 
 .heroImgContent {
@@ -81,20 +82,65 @@ header li {
     padding: 16px;
 }
 
-.Design {
+.skillEmpathy {
     text-align: center;
     padding: 16px; 
+    position: relative;
+    height: 250px;
+    width: 350px;
+    background-image: url("../images/empathy.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-
-.UserEmpathy {
+.skillDesign {
     text-align: center;
-    padding: 16px;
+    padding: 16px; 
+    position: relative;
+    height: 250px;
+    width: 350px;
+    background-image: url("../images/design.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.Interaction {
+.skillInteraction {
     text-align: center;
+    padding: 16px; 
+    position: relative;
+    height: 250px;
+    width: 350px;
+    background-image: url("../images/communication.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.skillText {
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    top: 0;
+    left: 0;
     padding: 16px;
+    display: none;
+}
+
+#empathyText {
+    display: none;
+}
+
+#designText {
+    display: none;
+}
+
+#interactionText {
+    display: none;
+}
+
+.skillImg {
+    height: 100%;
+    width: 100%;
 }
 
 .skillButton {
@@ -181,4 +227,8 @@ header li {
     }
 
 
+}
+
+a {
+    text-decoration:none
 }
