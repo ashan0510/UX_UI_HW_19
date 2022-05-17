@@ -72,6 +72,21 @@ header li {
     gap: 50px;
 }
 
+.portfolio {
+    background-color: #ffeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+}
+
 .heroImgContent {
     display: flex;
     align-items: center;
