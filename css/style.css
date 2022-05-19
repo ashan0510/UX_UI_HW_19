@@ -141,6 +141,18 @@ header li {
     display: none;
 }
 
+.TravelTroupeGrid {
+    text-align: center;
+}
+
+.PocketStylistGrid {
+    text-align: center;
+}
+
+.TabbyTailsGrid {
+    text-align: center;
+}
+
 #empathyText {
     display: none;
 }
@@ -160,6 +172,7 @@ header li {
 
 .skillButton {
     align-self: flex-end;
+    padding: 16px;
 }
 
 .socialIcons {
@@ -179,12 +192,13 @@ header li {
     opacity: 0.2;
 }
 
-.logoForm {
-   display: flex;
+.footerform {
+    width: 550px;
 }
 
 .footerlinks {
     width: 50%;
+    font-size: 20px;
 }
 
 .PortfolioTT {
@@ -233,7 +247,39 @@ header li {
     text-align: right;
 }
 
+h1 {
+    font-size: 36px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 
+h2 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 20px;
+}
+
+a {
+    text-decoration:none
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.lineone {
+    padding:10px;
+}
+
+.linetwo {
+    padding:10px;
+}
+
+.linethree {
+    padding:10px;
+}
 
 @media only screen and (max-width: 600px) {
     .Portfolio {
@@ -244,6 +290,3 @@ header li {
 
 }
 
-a {
-    text-decoration:none
-}
